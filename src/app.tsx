@@ -7,8 +7,13 @@ import {
   Provide,
   Watch,
 } from 'vue-property-decorator';
+import Test from './components/test';
 
-@Component
+@Component({
+  components: {
+    Test
+  }
+})
 export default class App extends Vue {
   items= Array.from({length: 10000}).map((_, index) => index)
 
