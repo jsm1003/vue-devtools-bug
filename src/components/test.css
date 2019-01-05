@@ -1,0 +1,10 @@
+.test {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #333333;
+  overflow-y: auto;
+}
+
+.item {
+  height: 50px;
+}
